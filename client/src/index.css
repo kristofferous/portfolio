@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@600&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root {
+  /*ETC*/
+  --background-clr: #3d3d3d;
+
+  /*STANDOUT*/
+  --standout-text-clr: -webkit-linear-gradient(45deg, #e15aff, #ff4f4f);
+  --standout-font: 'Permanent Marker', cursive;
+
+  /*BASIC*/
+  --basic-text-clr: #fff;
+  --basic-font: 'Quicksand', sans-serif;
 }
