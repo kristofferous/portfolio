@@ -10,6 +10,7 @@ function Navbar(this: any, props:any) {
                     <ul id={"one"}>ONE</ul>
                     <ul id={"two"}>TWO</ul>
                 </li>
+                <h1 className={"navContact"}>Contact me</h1>
             </div>
         </div>
     )

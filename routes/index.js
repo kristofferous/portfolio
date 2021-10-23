@@ -8,4 +8,8 @@ router.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/build', 'index.html'))
 });
 
+router.get('/hi', (req, res, next) => {
+  res.send("ho")
+})
+
 module.exports = router;

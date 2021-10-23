@@ -30,3 +30,7 @@
 .navList > * {
   font-size: 25px;
 }
+.navContact {
+  border-radius: 50px;
+  background: red;
+}
