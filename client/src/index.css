@@ -19,8 +19,17 @@ code {
   /*STANDOUT*/
   --standout-text-clr: -webkit-linear-gradient(45deg, #e15aff, #ff4f4f);
   --standout-font: 'Permanent Marker', cursive;
+  --standout-border: #e15aff 2px solid;
+  --standout-underline: -webkit-linear-gradient(45deg, #e15aff, #ff4f4f);
 
   /*BASIC*/
   --basic-text-clr: #fff;
   --basic-font: 'Quicksand', sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

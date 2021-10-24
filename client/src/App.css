@@ -1,4 +1,4 @@
-.App {
+  .App {
   text-align: center;
   background: var(--background-clr);
   height: 100vh;
@@ -29,8 +29,28 @@
 }
 .navList > * {
   font-size: 25px;
+  padding: 0;
+  margin: 15px;
 }
+.navList > *::after {
+  content: '';
+  position: relative;
+  /*flex: none;*/
+  display: inline-block;
+  top: -15px;
+  left: -10%;
+  width: 0;
+  transition: width .5s ease-in-out;
+  /*width: 120%;*/
+  height: 2px;
+  background: var(--standout-underline);
+}
+  .navList > *:hover::after {
+    width: 120%;
+  }
 .navContact {
   border-radius: 50px;
-  background: red;
+  padding: 7.5px;
+  border: var(--standout-border);
+  font-size: 20px;
 }
