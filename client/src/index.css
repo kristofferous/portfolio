@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -13,20 +14,37 @@ code {
     monospace;
 }
 :root {
-  /*ETC*/
+  /*----------
+    ETC
+  ----------*/
   --background-clr: #3d3d3d;
 
-  /*STANDOUT*/
+  /*----------
+    STANDOUT
+  ----------*/
   --standout-text-clr: -webkit-linear-gradient(45deg, #e15aff, #ff4f4f);
+  --standout-bg-clr: #ff4f4f;
   --standout-font: 'Permanent Marker', cursive;
   --standout-border: #e15aff 2px solid;
   --standout-underline: -webkit-linear-gradient(45deg, #e15aff, #ff4f4f);
 
-  /*BASIC*/
-  --basic-text-clr: #fff;
+  /*----------
+    BASIC
+  ----------*/
+  --basic-text-clr: #d3d3d3;
   --basic-font: 'Quicksand', sans-serif;
+
+  /*----------
+      NAVBAR
+  ----------*/
+  --navbar-height: 125px;
+  --navbar-border: 0 0 .5em rgba(0,0,0,.5);
+  --navbar-background-clr: #494949;
+  --navbar-selected: var(--standout-text-clr);
+
 }
-ul {
+
+li, ul {
   list-style: none;
 }
 a {
